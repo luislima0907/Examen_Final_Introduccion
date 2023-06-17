@@ -1,0 +1,16 @@
+CREATE DATABASE _0907_23_20758
+USE _0907_23_20758
+
+CREATE TABLE producto 
+Codigo TEXT,
+Nombre TEXT,
+Precio INT (50),
+Existencia INT (100),
+
+INSERT INTO producto (Codigo, Nombre, Precio, Existencia) 
+              VALUES ('F1', 'Azúcar', 10, 5), 
+              ('F2', 'Sal', 5, 10), 
+              ('F3', 'Harina', 15, 20), 
+              ('F4', 'Café', 8, 30), ('F5', 'Cereal', 25, 3);
+
+
